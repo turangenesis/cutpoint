@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cutpoint"
+version = "0.1.0"
+description = "Where do you cut a coordinating agent swarm? Forensics and measurement of multi-agent oversight interventions (Swarm Alignment Hackathon 2026)."
+requires-python = ">=3.12"
+dependencies = ["networkx>=3.5", "numpy>=2.0", "pandas>=2.0", "matplotlib>=3.8", "scikit-learn>=1.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

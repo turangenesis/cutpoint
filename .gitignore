@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+artifacts/
+.gnhf/
+.DS_Store
+data/
+# internal / personal (never publish)
+SPEECH*.md
+HANDOFF.md
+BUILD-SPEC.md
+DO-NOT-TOUCH.md
+PRE-REGISTRATION.md
+PREMISE.md
+PROJECT-BRIEF.md
+REPORT-OUTLINE.md
+cutpoint-slides.pptx
+cutpoint-slides.pdf
+cutpoint-REPORT.pdf
+_archive/
